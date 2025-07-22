@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-dark-purple-950: #1b003a;
+    --color-dark-purple-900: #230443;
+    --color-dark-purple-800: #2c064d;
+    --color-dark-purple-700: #340856;
+    --color-dark-purple-600: #3d0b60;
+    --color-dark-purple-500: #4d0491;
+    --color-dark-purple-400: #58079c;
+    --color-dark-purple-300: #640ba7;
+    --color-dark-purple-200: #7e33b7;
+    --color-dark-purple-100: #a167c9;
+    --color-dark-purple-50: #d1a0e2;
+}
