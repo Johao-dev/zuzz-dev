@@ -1,10 +1,9 @@
 function Services() {
-    return (
-        <div className="services">
-        <h2>Our Services</h2>
-        <p>We offer a variety of services to meet your needs.</p>
-        </div>
-    );
+  return (
+    <div className="dark:bg-dark-purple-950 dark:text-white">
+      IMPLEMENTAR CARRUSEL DE COMPONENTES (CREAR COMPONENTE)
+    </div>
+  );
 }
 
 export default Services;
