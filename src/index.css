@@ -3,7 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-    --color-dark-purple-950: #1b003a;
+    --color-dark-purple-950: #0A0915;
     --color-dark-purple-900: #230443;
     --color-dark-purple-800: #2c064d;
     --color-dark-purple-700: #340856;
